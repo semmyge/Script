@@ -1,0 +1,22 @@
+speedtest.py带宽测试脚本
+
+第一步，下载脚本并重名为cs：
+
+    wget -O cs https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
+ 脚本备用地址
+    wget -O cs https://github.com/semmyge/Script/blob/master/speedtest.py
+    wget -O cs http://t.cn/E5PT8YL
+   
+
+
+第二步：移动脚本到/bin/方便全局执行
+
+    mv cs /bin/
+
+给个小权限
+
+    chmod 0777 /bin/cs
+
+然后直接执行cs就能测速啦：
+
+    cs
